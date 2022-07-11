@@ -9,7 +9,7 @@ const obj = {
       let cal = valor % 2;
 
       let resul = valor
-        ? cal == 0
+        ? cal === 0
           ? `El numero ${valor} es Par`
           : `El numero ${valor} es Impar`
         : "No hay datos, primero ingrese un numero";
